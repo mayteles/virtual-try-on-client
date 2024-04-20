@@ -30,6 +30,7 @@ const PhotoUpload = () => {
           <Silhouette state={silhouetteState} />
         </div>
       </div>
+      <botton className="primary-cta">Upload your photo</botton>
     </>
   );
 };

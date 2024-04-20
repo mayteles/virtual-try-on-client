@@ -24,3 +24,18 @@
   background: url("../../assets/images/colored.png") lightgray 50% / cover
     no-repeat;
 }
+
+.primary-cta {
+  display: flex;
+  padding: 0.625rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 6.25rem;
+  background: var(--Neutral-700, #4d5867);
+  color: var(--M3-sys-light-on-primary, #fff);
+  width: 9rem;
+  margin: auto;
+}
