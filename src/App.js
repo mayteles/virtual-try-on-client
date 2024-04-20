@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Step1 from "./pages/Step1/Step1";
 import Step2 from "./pages/Step2/Step2";
 import Step3 from "./pages/Step3/Step3";
-// import "./styles/global.scss";
+import "./styles/global.scss";
 
 function App() {
   return (
