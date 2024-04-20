@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./PhotoUpload.scss";
 import { Silhouette } from "../Silhouette/Silhouette";
+import { useNavigate } from "react-router-dom";
 
 const PhotoUpload = () => {
   const [silhouetteState, setSilhouetteState] = useState("figure-only");
+  const navigate = useNavigate();
 
   const changeState = () => {
     switch (silhouetteState) {
@@ -18,6 +20,10 @@ const PhotoUpload = () => {
     }
   };
 
+  const handleClick = () => {
+    navigate("/upload");
+  };
+
   return (
     <>
       <div className="photo-upload-section">
@@ -30,7 +36,9 @@ const PhotoUpload = () => {
           <Silhouette state={silhouetteState} />
         </div>
       </div>
-      <botton className="primary-cta">Upload your photo</botton>
+      <botton className="primary-cta" onClick={handleClick}>
+        Upload your photo
+      </botton>
     </>
   );
 };

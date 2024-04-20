@@ -17,7 +17,7 @@ export const Silhouette = () => {
     const interval = setInterval(() => {
       currentIdx = (currentIdx + 1) % states.length;
       setState(states[currentIdx]);
-    }, 2000); // Change state every 2000 milliseconds (2 seconds)
+    }, 1500); // Change state every 1500 milliseconds (1.5 seconds)
 
     return () => clearInterval(interval); // Clean up on unmount
   }, []);
