@@ -1,7 +1,9 @@
+import PhotoUpload from "../../components/PhotoUpload/PhotoUpload";
+
 const Step1 = () => {
   return (
     <>
-      <div>This is a test sentence.</div>
+      <PhotoUpload />
     </>
   );
 };
