@@ -1,0 +1,31 @@
+.steps {
+    &__div {
+        margin: 1rem;
+        text-align: center;
+    }
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    &__number-one {
+        background-color: grey;
+        padding: 0.5rem 1rem;
+        border-radius: 50%;
+        color: white;
+        font-weight: 600;
+    }
+    &__number {
+        background-color: rgb(230, 226, 226);
+        padding: 0.5rem 1rem;
+        border-radius: 50%;
+        color: grey;
+    }
+    &__explain {
+        background-color: grey;
+        color: white;
+        padding: 1rem;
+        margin: 1rem 2rem;
+        border-radius: 20px;
+    }
+}
