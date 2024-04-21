@@ -1,18 +1,25 @@
+@import '../../styles/global.scss';
 .steps {
     &__text {
-        text-align: center;
+        margin: 1rem;
     }
     &__div {
         margin: 1rem;
         text-align: center;
+
     }
     &__container {
         display: flex;
-        justify-content: space-evenly;
-        
+        align-items: center;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    &__line {
+        flex-grow: 1;
+        border-bottom: 1px solid #67707D;
+        margin: 1rem 0rem 1rem 0rem;
     }
     &__number-one {
-        position: relative;
         background-color: #67707D;
         padding: 0.5rem 1rem;
         border-radius: 50%;
@@ -20,24 +27,27 @@
         font-weight: 600;
     }
     &__number {
-        background-color: rgb(230, 226, 226);
+        background-color: #E6E7E9;
         padding: 0.5rem 1rem;
         border-radius: 50%;
-        color: #67707D;
+        color: #808893;
     }
     &__explain {
-        position: absolute;
-        left: 10%;
+        position: relative;
         background-color: #67707D;
         color: #F2F2F2;
-        padding: 1rem;
-        // margin: 1rem 2rem;
-        border-radius: 20px;
-        width: 15rem;
-        
+        padding: 0.5rem;
+        margin: 0;
+        border-radius: 8px;
+        width: 14rem;
+        margin-left: 3rem;
+        margin-top: 0.9rem;
+        text-align: left;
     }
     &__path {
         display: inline-block;
-        margin-right: 10rem;
+        height: 5px;
+        position: absolute; 
+        left: 5.5rem;
     }
 }
