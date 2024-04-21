@@ -1,10 +1,10 @@
 import PhotoUpload from "../../components/PhotoUpload/PhotoUpload";
-import Steps from '../../components/Steps/Steps';
+import FirstStep from '../../components/Steps/FirstStep';
 
 const Step1 = () => {
   return (
     <>
-      < Steps />  
+      < FirstStep />  
       <PhotoUpload />
     </>
   );

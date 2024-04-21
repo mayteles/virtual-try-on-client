@@ -1,6 +1,6 @@
 import '../Steps/Steps.scss';
 
-function Steps() {
+function FirstStep() {
     return (
       <section className="steps">
         <p className="steps__text">Welcome to our virtual fitting AI! View clothes on a model with a shape like yours to make sure they fit just right.</p>
@@ -23,4 +23,4 @@ function Steps() {
     );
   }
   
-  export default Steps;
+  export default FirstStep;
