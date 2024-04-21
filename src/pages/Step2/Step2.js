@@ -1,7 +1,8 @@
+import SecondStep from '../../components/Steps/SecondStep';
 const Step2 = () => {
   return (
     <>
-      <div></div>
+      < SecondStep />
     </>
   );
 };
