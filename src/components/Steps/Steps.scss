@@ -1,0 +1,43 @@
+.steps {
+    &__text {
+        text-align: center;
+    }
+    &__div {
+        margin: 1rem;
+        text-align: center;
+    }
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    &__number-one {
+        position: relative;
+        background-color: #67707D;
+        padding: 0.5rem 1rem;
+        border-radius: 50%;
+        color: #F2F2F2;
+        font-weight: 600;
+    }
+    &__number {
+        background-color: rgb(230, 226, 226);
+        padding: 0.5rem 1rem;
+        border-radius: 50%;
+        color: #67707D;
+    }
+    &__explain {
+        position: absolute;
+        left: 10%;
+        background-color: #67707D;
+        color: #F2F2F2;
+        padding: 1rem;
+        // margin: 1rem 2rem;
+        border-radius: 20px;
+        width: 15rem;
+        
+    }
+    &__path {
+        display: inline-block;
+        margin-right: 10rem;
+    }
+}

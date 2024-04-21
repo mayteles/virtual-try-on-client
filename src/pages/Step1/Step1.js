@@ -1,7 +1,8 @@
+import Steps from '../../components/Steps/Steps';
 const Step1 = () => {
   return (
     <>
-      <div>This is a test sentence.</div>
+      < Steps />
     </>
   );
 };
