@@ -1,0 +1,53 @@
+@import '../../styles/global.scss';
+.steps {
+    &__text {
+        margin: 1rem;
+    }
+    &__div {
+        margin: 1rem;
+        text-align: center;
+
+    }
+    &__container {
+        display: flex;
+        align-items: center;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    &__line {
+        flex-grow: 1;
+        border-bottom: 1px solid #67707D;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    &__number-one {
+        background-color: #67707D;
+        padding: 0.5rem 1rem;
+        border-radius: 50%;
+        color: #F2F2F2;
+        font-weight: 600;
+    }
+    &__number {
+        background-color: #E6E7E9;
+        padding: 0.5rem 1rem;
+        border-radius: 50%;
+        color: #808893;
+    }
+    &__explain {
+        position: relative;
+        background-color: #67707D;
+        color: #F2F2F2;
+        padding: 0.5rem;
+        margin: 0;
+        border-radius: 8px;
+        width: 14rem;
+        margin-left: 3rem;
+        margin-top: 0.9rem;
+        text-align: left;
+    }
+    &__path {
+        display: inline-block;
+        height: 5px;
+        position: absolute; 
+        left: 5.5rem;
+    }
+}
