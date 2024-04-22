@@ -1,6 +1,7 @@
 import React from 'react'
 import gifguide from '../../assets/GIF/ezgif-4-696ec24dd8.gif'
 
+
 function MiniTutorialGif() {
   return (
     <div className='mini'>
