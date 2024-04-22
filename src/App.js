@@ -16,7 +16,6 @@ function App() {
           {/* Route for Step1 */}
           <Route path="/step1" element={<Step1 />} />
           {/* Route for Upload Page */}
-          <Route path="/upload" element={<UploadPhoto />} />
           {/* Route for Step2 */}
           <Route path="/step2" element={<Step2 />} />
           {/* Route for Step3 */}
