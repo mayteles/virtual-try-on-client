@@ -4,7 +4,7 @@ import { Silhouette } from "../Silhouette/Silhouette";
 import { useNavigate } from "react-router-dom";
 
 const PhotoUpload = () => {
-  const [silhouetteState, setSilhouetteState] = useState("figure-only");
+  const [silhouetteState, setSilhouetteState] = useState("figureOnly");
   const navigate = useNavigate();
 
   const changeState = () => {
@@ -36,9 +36,9 @@ const PhotoUpload = () => {
           <Silhouette state={silhouetteState} />
         </div>
       </div>
-      <botton className="primary-cta" onClick={handleClick}>
-        Upload your photo
-      </botton>
+      <button className="primary-cta" onClick={handleClick}>
+        Take your photo
+      </button>
     </>
   );
 };

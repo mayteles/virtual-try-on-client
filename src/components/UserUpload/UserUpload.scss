@@ -1,0 +1,28 @@
+.capture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18.0625rem;
+  height: 18.0625rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  border: 1px dashed var(--Neutral-600, #67707d);
+  background: var(--Neutral-100, #e6e7e9);
+  margin: 2rem auto;
+}
+
+.button__cancel {
+  color: var(--Neutral-900, #011126);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 171.429% */
+  letter-spacing: -0.03125rem;
+  text-decoration-line: underline;
+  display: inline-flex;
+  padding: 0.0625rem;
+  justify-content: center;
+  border: none;
+  background-color: #fff;
+  margin: 0.5rem;
+}
