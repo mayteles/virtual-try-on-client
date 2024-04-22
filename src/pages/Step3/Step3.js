@@ -1,7 +1,8 @@
+import ThirdStep from '../../components/Steps/ThirdStep';
 const Step3 = () => {
   return (
     <>
-      <div></div>
+      <ThirdStep />
     </>
   );
 };
