@@ -1,7 +1,10 @@
+import Height from '../../Height';
 const Step1 = () => {
   return (
     <>
-      <div>This is a test sentence.</div>
+      <div>
+        <Height />
+      </div>
     </>
   );
 };
