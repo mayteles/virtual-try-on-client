@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import gifguide from '../../assets/GIF/ezgif-4-696ec24dd8.gif';
 
 function MiniTutorialGif() {
@@ -8,7 +9,7 @@ function MiniTutorialGif() {
       <div className='mini__img-container'>
         <img className='mini__img-box' src={gifguide} alt="guide step"/>
         <div className='mini__buttons'>
-          <button className='mini__cta'>Try it out</button>
+          <Link to='/step1'><button className='mini__cta'>Try it out</button></Link>
           <br/> {/* Add a line break to move the next button to the next row */}
           <button className='mini__cancel'>Cancel</button>
         </div>
