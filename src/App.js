@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Step1 from "./pages/Step1/Step1";
 import Step2 from "./pages/Step2/Step2";
 import Step3 from "./pages/Step3/Step3";
+import Step4 from "./pages/Step4/Step4";
 import "./styles/global.scss";
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
           <Route path="/step2" element={<Step2 />} />
           {/* Route for Step3 */}
           <Route path="/step3" element={<Step3 />} />
+          {/* Route fot Step4 */}
+          <Route path="/step4" element={<Step4 />} />
         </Routes>
       </BrowserRouter>
     </>
