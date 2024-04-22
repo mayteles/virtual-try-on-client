@@ -20,20 +20,29 @@ const UserUpload = () => {
     }
   };
 
+  const handleCancel = () => {
+    navigate("/");
+  };
+
   return (
     <>
-      <div className="capture">
-        <img src={cameraIcon} alt="" />
+      <div style={{ display: "flex", flexDirection: "column" }}>
+        <div className="capture">
+          <img src={cameraIcon} alt="" />
+        </div>
+        <button className="primary-cta" onClick={handleClick}>
+          Take your photo
+        </button>
+        <input
+          type="file"
+          style={{ display: "none" }} // The file input is hidden
+          ref={fileInputRef}
+          onChange={handleFileChange}
+        />
+        <button className="button__cancel" onClick={handleCancel}>
+          Cancel
+        </button>
       </div>
-      <button className="primary-cta" onClick={handleClick}>
-        Take your photo
-      </button>
-      <input
-        type="file"
-        style={{ display: "none" }} // The file input is hidden
-        ref={fileInputRef}
-        onChange={handleFileChange}
-      />
     </>
   );
 };
