@@ -1,6 +1,3 @@
-@import './styles/global.scss';
-@import './styles/variables.scss';
-@import './styles/mixins.scss';
 
 .height{
     align-self: center;
@@ -92,7 +89,7 @@
         background: none;
         color: black;
 
-        &*:hover*{
+        &:hover{
             cursor: pointer;
         }
     }

@@ -19,8 +19,8 @@ function Model() {
     return (
         <div className='model'>
             <div className='model__container'>
-                <img className='model__silhouette' src={require('')} alt='Model silhouette'/>
-                <img className='model__selector' src={require('')} alt='Model selector'/>
+                <img className='model__silhouette' src={require('../../assets/images/silhouette.png')} alt='Model silhouette'/>
+                <img className='model__selector' src={require('../../assets/images/Images of models.jpg')} alt='Model selector'/>
             </div>
            <Box className='model__progress' sx={{ display: 'flex' }}>
                 <CircularProgress />

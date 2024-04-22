@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Height.scss';
+import './Measure.scss';
 
-const Height = () => {
+const Measure = () => {
   const [heightFeet, setHeightFeet] = useState('');
   const [heightInches, setHeightInches] = useState('');
 
@@ -55,4 +55,4 @@ const Height = () => {
   );
 };
 
-export default Height;
+export default Measure;
