@@ -1,3 +1,4 @@
+@use "../../styles/variables.scss" as *;
 .photo-caption {
   color: var(--Neutral-500, #808893);
   font-family: Roboto;
@@ -11,6 +12,7 @@
 .photo-upload-section {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .photo {
@@ -34,8 +36,9 @@
   flex: 1 0 0;
   align-self: stretch;
   border-radius: 6.25rem;
-  background: var(--Neutral-700, #4d5867);
+  background: var(--Neutral-700, $blue);
   color: var(--M3-sys-light-on-primary, #fff);
   width: 10rem;
   margin: auto;
+  border: none;
 }
