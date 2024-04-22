@@ -1,0 +1,109 @@
+@import './styles/global.scss';
+@import './styles/variables.scss';
+@import './styles/mixins.scss';
+
+.height{
+    align-self: center;
+    width: 328px;
+    height: 243px;
+    flex-direction: column;
+    background-color: #49454F;
+    align-items: flex-start;
+    flex-shrink: 0;
+    display: flex;
+    padding: 24px 24px 0px 24px;
+    border-radius: 15px;
+    background: var(--Neutral-100, #E6E7E9);
+    margin-left: auto;
+    margin-right: auto;
+
+    &__label{
+        color: var(--M3-sys-light-on-surface-variant, var(--Schemes-On-Surface-Variant,  #49454F));
+        font-family: Roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; 
+        letter-spacing: -0.5px;
+        padding-bottom: 20px;
+    }
+
+    &__input{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        padding-bottom: 20px;
+    }
+    &__input--inches{
+        width: 128px;
+        height: 96px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7px;
+        flex: 1 0 0;
+        color: rgba(29, 27, 32, 1);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 52px;
+        background-color: rgba(204, 207, 212, 1);
+        border: none;
+        border-radius: 15px;
+    }
+    &__input--feet{
+        width: 128px;
+        height: 96px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7px;
+        flex: 1 0 0;
+        color: rgba(29, 27, 32, 1);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 52px;
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+
+        &:active, :hover{
+            border-color: #49454F;
+        }
+    }
+    &__button--container{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 32px;
+    }
+    &__cancel--button{
+        border: none;
+        background: none;
+        color: black;
+
+        &*:hover*{
+            cursor: pointer;
+        }
+    }
+    &__confirm--button{
+        border-radius: 100px;
+        border: none;
+        color: white;
+        background: var(--Google-Blue-100, #688FF5);
+        padding: 10px 24px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
