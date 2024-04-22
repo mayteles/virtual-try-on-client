@@ -1,4 +1,4 @@
-import '../Steps/Steps.scss';
+import './Steps.scss';
 
 function FirstStep() {
     return (
