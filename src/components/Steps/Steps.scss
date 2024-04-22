@@ -1,4 +1,5 @@
 @import '../../styles/global.scss';
+@import '../../styles/variables.scss';
 .steps {
     &__text {
         margin: 1rem;
@@ -6,7 +7,6 @@
     &__div {
         margin: 1rem;
         text-align: center;
-        position: relative;
     }
     &__container {
         display: flex;
@@ -16,26 +16,30 @@
     }
     &__line {
         flex-grow: 1;
-        border-bottom: 1px solid #67707D;
+        border-bottom: 1px solid $green;
         margin: 1rem 0rem 1rem 0rem;
     }
     &__number-one {
-        background-color: #67707D;
+        background-color: $green;
         padding: 0.5rem 1rem;
         border-radius: 50%;
-        color: #F2F2F2;
+        color: white;
         font-weight: 600;
     }
     &__number {
-        background-color: #E6E7E9;
+        background-color: $light-gray;
         padding: 0.5rem 1rem;
         border-radius: 50%;
-        color: #808893;
+        color: $dark-gray;
+    }
+    &__explain-container {
+        display: flex;
+        justify-content: center;
     }
     &__explain {
         position: relative;
-        background-color: #67707D;
-        color: #F2F2F2;
+        border: 1px solid $green;
+        color: #011126;
         padding: 0.5rem;
         margin: 0;
         border-radius: 8px;
@@ -45,10 +49,8 @@
         text-align: left;
     }
     &__explain2 {
-        position: absolute;
-        left: 10vw;
-        background-color: #67707D;
-        color: #F2F2F2;
+        border: 1px solid $green;
+        color: #011126;
         padding: 0.5rem;
         margin: 0;
         border-radius: 8px;
@@ -59,7 +61,11 @@
         display: inline-block;
         height: 5px;
         position: absolute; 
-        left: 4rem;
+        left: 5.5rem;
+    }
+    &__path2 {
+        display: inline-block;
+        height: 5px;
     }
 
 }
