@@ -12,16 +12,14 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home/>} />
           {/* Route for Step1 */}
           <Route path="/step1" element={<Step1 />} />
           {/* Route for Upload Page */}
+          <Route path="/upload" element={<UploadPhoto />} />
           {/* Route for Step2 */}
           <Route path="/step2" element={<Step2 />} />
           {/* Route for Step3 */}
           <Route path="/step3" element={<Step3 />} />
-          {/* Route fot Step4 */}
-          <Route path="/step4" element={<Step4 />} />
         </Routes>
       </BrowserRouter>
     </>
