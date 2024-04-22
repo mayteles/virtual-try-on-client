@@ -7,7 +7,7 @@ function MiniTutorialGif() {
       <p>Welcome to try our virtual fitting AI! View clothes on a model with a shape like yours to make sure they fit just right.</p>
       <section>
         <p>Rest assured. We only use your photo's silhouette to match you with the right model, keeping your data safe.</p>
-        <div>6
+        <div>
           <img src={gifguide} alt="guide step"/>
         </div>
       </section>
