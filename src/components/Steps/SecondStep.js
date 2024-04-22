@@ -6,7 +6,7 @@ function SecondStep() {
         <p className="steps__text">Silhouette is created! Your photo has been deleted from the cloud. Sit back as our AI assistant handles the rest.</p>
         <div className="steps__div">
             <div className="steps__container">
-                <p className="steps__number">1</p>          
+                <p className="steps__number">✔︎</p>          
                 <span className="steps__line"></span>
                 <p className="steps__number-one">2</p>
                 <span className="steps__line"></span>
