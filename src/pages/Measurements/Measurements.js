@@ -1,10 +1,10 @@
-import FirstStep from "../../components/Steps/FirstStep";
+import FirstStepMeasure from "../../components/Steps/FirstStepMeasure";
 import Height from '../../components/Measure/Measure';
 
 const Measurements = () => {
     return (
         <>
-        <FirstStep />
+        <FirstStepMeasure />
         <Height />
         </>
     )
