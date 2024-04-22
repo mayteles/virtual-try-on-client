@@ -1,0 +1,15 @@
+@use "../styles/variables.scss" as *;
+
+// cta btn
+@mixin cta {
+    display: inline-flex;
+    height: 40px;
+    min-width: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: $primary-cta;
+}
