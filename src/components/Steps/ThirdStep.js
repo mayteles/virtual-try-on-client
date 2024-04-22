@@ -1,28 +1,28 @@
 import '../Steps/Steps.scss';
 
-function SecondStep() {
+function ThirdStep() {
     return (
       <section className="steps">
-        <p className="steps__text">Silhouette is created! Your photo has been deleted from the cloud. Sit back as our AI assistant handles the rest.</p>
+        <p className="steps__text">Voila! Check out the summer dress on the model. Our virtual try-on ensures the perfect fit, hassle-free!</p>
         <div className="steps__div">
             <div className="steps__container">
                 <p className="steps__number-one">✔︎</p>          
                 <span className="steps__line"></span>
-                <p className="steps__number-one">2</p>
+                <p className="steps__number-one">✔︎</p>
                 <span className="steps__line"></span>
-                <p className="steps__number">3</p>
+                <p className="steps__number-one">3</p>
             </div>
-            <div className="steps__path2">
+            <div className="steps__path3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5" fill="none">
                     <path d="M4.5 0L8.39711 4.5H0.602886L4.5 0Z" fill="#34A853"/>
                 </svg>
             </div>
-            <div className="steps__explain-container">
-                <p className="steps__explain2">Our AI assistant matches your silhouette with a model of similar body shape to ensure a good fit.</p>
+            <div className="steps__explain-container3">
+                <p className="steps__explain">Your virtual try-on look is ready, featuring a model with a body similar to yours. Tell us how you like it.</p>
             </div>
         </div>
       </section>
     );
   }
   
-  export default SecondStep;
+  export default ThirdStep;

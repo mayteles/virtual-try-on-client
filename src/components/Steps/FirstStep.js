@@ -14,10 +14,10 @@ function FirstStep() {
             </div>
             <div className="steps__path">
                 <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5" fill="none">
-                    <path d="M4.5 0L8.39711 4.5H0.602886L4.5 0Z" fill="#67707D"/>
+                    <path d="M4.5 0L8.39711 4.5H0.602886L4.5 0Z" fill="#34A853"/>
                 </svg>
             </div>
-            <p className="steps__explain">Upload a photo of yourself and we'll make a silhouette of it</p>
+            <p className="steps__explain">Take a photo of yourself and we'll make a silhouette of it</p>
         </div>
       </section>
     );
