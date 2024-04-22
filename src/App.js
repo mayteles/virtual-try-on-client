@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
 import Step1 from "./pages/Step1/Step1";
 import UploadPhoto from "./pages/UploadPhoto/UploadPhoto";
 import Step2 from "./pages/Step2/Step2";
@@ -10,6 +11,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          {/* Route for Home */}
+          <Route path="/" element={<Home />} />
           {/* Route for Step1 */}
           <Route path="/step1" element={<Step1 />} />
           {/* Route for Upload Page */}
