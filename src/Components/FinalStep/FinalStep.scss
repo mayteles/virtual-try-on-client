@@ -1,0 +1,37 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+@import "../../styles/global.scss";
+
+.final {
+    padding: 1rem;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__img {
+        width: 5rem; 
+        height: 17.25rem;
+        padding: 1rem 0.5rem 2rem 0.5rem;
+    }
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+     }
+     &__cta {
+      @include cta;
+      color: $white;
+      border: none;
+     }
+     &__cancel {
+        letter-spacing: -0.5px;
+        text-decoration-line: underline;
+        border: none;
+        background-color: transparent;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+     }
+}

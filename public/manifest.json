@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Virtual TryOn",
+  "name": "Virtual Try On",
   "icons": [
     {
       "src": "favicon.ico",
