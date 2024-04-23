@@ -1,5 +1,4 @@
 import '../Steps/Steps.scss';
-
 function ThirdStep() {
     return (
       <section className="steps">
@@ -10,7 +9,7 @@ function ThirdStep() {
                 <span className="steps__line"></span>
                 <p className="steps__number-one">✔︎</p>
                 <span className="steps__line"></span>
-                <p className="steps__number-one">3</p>
+                <p className="steps__number-one">✔︎</p>
             </div>
             <div className="steps__path3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5" fill="none">
