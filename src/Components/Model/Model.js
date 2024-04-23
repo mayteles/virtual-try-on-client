@@ -10,8 +10,8 @@ function Model() {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            navigate('/next-page'); //change for actual page
-        }, 30000); 
+            navigate('/step3'); 
+        }, 5000); 
 
         return () => clearTimeout(timer); 
     }, [ navigate ]);
