@@ -24,6 +24,10 @@ const PhotoUpload = () => {
     navigate("/upload");
   };
 
+  const handleCancel = () => {
+    navigate("/");
+  };
+
   return (
     <>
       <div className="photo-upload-section">
@@ -38,6 +42,9 @@ const PhotoUpload = () => {
       </div>
       <button className="primary-cta" onClick={handleClick}>
         Take your photo
+      </button>
+      <button className="button__cancel" onClick={handleCancel}>
+        Cancel
       </button>
     </>
   );
