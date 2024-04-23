@@ -16,7 +16,7 @@ const UserUpload = () => {
     const file = event.target.files[0];
     if (file) {
       alert("Photo successfully captured");
-      navigate("/step2");
+      navigate("/measurements");
     }
   };
 
