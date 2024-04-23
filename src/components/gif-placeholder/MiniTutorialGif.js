@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import gifguide from '../../assets/GIF/ezgif-4-696ec24dd8.gif';
+import gifguide from '../../assets/GIF/ezgif-tutorial v3 Apr 22.gif';
 
 function MiniTutorialGif() {
   return (
